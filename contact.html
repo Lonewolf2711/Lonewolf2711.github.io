@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Description</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+</head>
+<body background="one.jpg">
+
+  <header>
+        
+    <span class="headername"><img src="default.png" width="200" height="35px"></span>
+        <div class="topnav">
+            
+            <a href="index.html">Home</a>
+            <a href="course.html">Courses</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://forms.gle/2zEbmygN7Kg2aoRW7" target="_blank">Apply</a>
+            <a href="https://forms.gle/VNgchEZvKoEp9Xiz8" target="_blank">Feedback</a>
+          </div>
+      
+  </header>
+  
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right"> 
+        <form onsubmit="sendEmail(); reset(); return false;">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="The Falcon Academy">
+				<input type="email" class="field" placeholder="thefalconacademy.info@gmail.com">
+				<input type="text" class="field" placeholder="+91-8220055688">
+        <textarea id="message" placeholder="How Can We Help You!" class="field"></textarea>
+				<button class="btn">Submit</button>
+        </form>
+			</div>
+		</div>
+	</div>
+  
+  <script src=" https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    function sendEmail()
+    {
+      Email.send({
+    Host : "smtp.gmail.com",
+    Username : "thefalconacademy.info@gmail.com",
+    Password : "Meenakumari#1",
+    To : 'thefalconacademy.info@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Enquiry Form ",
+    Body : "Body Content"
+}).then(
+  message => alert(message)
+);
+      
+    }
+  </script>
+
+  <!--Footer code-->
+<footer>
+  <p>&copy; 2023 The Falcon Academy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

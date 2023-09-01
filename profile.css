@@ -1,0 +1,25 @@
+header
+ {
+display: flex;
+margin-top: 0px;
+margin-right: -20px;
+margin-left:-10px;
+justify-content: space-between;
+text-decoration: none;
+padding: 8px 10%;
+ }
+footer {
+    margin: 0px;margin-top: 20%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  footer p {
+    margin: 0;
+  }
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

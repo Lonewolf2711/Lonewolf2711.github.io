@@ -1,0 +1,16 @@
+header
+ {
+display: flex;
+margin-top: 0px;
+margin-right: -20px;
+margin-left:-10px;
+justify-content: space-between;
+text-decoration: none;
+padding: 8px 10%;
+ }
+
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

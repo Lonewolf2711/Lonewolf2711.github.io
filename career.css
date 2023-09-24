@@ -1,0 +1,19 @@
+header
+ {
+display: flex;
+margin-top: 0px;
+margin-right: -20px;
+margin-left:-10px;
+justify-content: space-between;
+text-decoration: none;
+padding: 8px 10%;
+ }
+ h1
+ {
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 5%;
+    color: aliceblue;
+    text-decoration: solid;
+ }
+ 

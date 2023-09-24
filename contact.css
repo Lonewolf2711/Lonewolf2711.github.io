@@ -76,9 +76,8 @@ padding: 8px 10%;
 	overflow: hidden;
 	backface-visibility: hidden;
   }
-  
-  .back {
-	background: #1d1b60;
+ .back {
+	background:  #dcd6d6;
 	color: white;
 	transform: rotateY(180deg);
   }

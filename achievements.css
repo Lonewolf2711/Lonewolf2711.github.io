@@ -72,45 +72,6 @@ color: #fff;
     height: auto;
     object-fit: cover;
   }
-  @keyframes slideAnimation {
-    0% {
-      transform: translateX(0%);
-    }
-    10% {
-      transform: translateX(0%);
-    }
-    20% {
-      transform: translateX(-100%);
-    }
-    30% {
-      transform: translateX(-100%);
-    }
-    40% {
-      transform: translateX(-200%);
-    }
-    50% {
-      transform: translateX(-200%);
-    }
-    60% {
-      transform: translateX(-300%);
-    }
-    70% {
-      transform: translateX(-300%);
-    }
-    80% {
-      transform: translateX(-400%);
-    }
-    90% {
-      transform: translateX(-400%);
-    }
-    100% {
-      transform: translateX(-500%);
-    }
-  }
-  .slider img{
-    /* Existing styles */
-    animation: slideAnimation 20s linear infinite; /* Adjust the duration (20s) as needed */
-  }
 
 
 
